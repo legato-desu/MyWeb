@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+
+#page-wraper {
+    background: url(img/page-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+/* Basico */
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+h4 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.25px;
+}
+
+img {
+    width: 100%;
+    overflow: hidden;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.main-nav li{
+    display: block;
+}
+
+.main-nav li a{
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    width: 100%;
+    transition: all 0.5s;
+    border-top: 2px solid #fff;
+}
+
+/* Menu */
+
+.menu .image{
+    margin-top: 60px;
+}
+
+.menu .image img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.menu .author-content h4{
+    margin-bottom: 0px;
+}
+
+.menu .author-content span{
+    font-size: 13px;
+    font-style: italic;
+    color: #fff;
+}
+
+.menu .social-network {
+    margin-top: 60px;
+}
+
+.menu .social-network ul li{
+    margin: 0 3px;
+}
+
+.menu .social-network ul li a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.menu .social-network ul li a:hover{
+    background-color: #fff;
+    color: #42607c;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu::-webkit-scrollbar{
+    display: none;
+}
+
+.menu {
+    left: 10%;
+    background-color: #42607c;
+    box-sizing: border-box;
+    height: 100vh;
+    max-height: 100vh;
+    max-width: 80vw;
+    min-width: 45px;
+    outline: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    position: fixed;
+    top: calc(0px);
+    width: 20%;
+    will-change: transform;
+    z-index: 9999;
+}
+
+/* Seleccion */
+
+.section{
+    color: #fff;
+    width: 55%;
+    right: 10%;
+    left: 35%;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 80px;
+    border-bottom: 3px solid #42607c;
+}
+
+.section-heading{
+    text-align: center;
+    padding: 80px 45px;
+}
+
+.section-heading h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.section-heading .line-dec{
+    width: 60px;
+    height: 3px;
+    background-color: cyan;
+    margin: 10px auto;
+}
+.section-heading span{
+    margin-top: 5px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+/* Bottons */ 
+
+.white-button a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #fff;
+    color: #42607c;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.white-button a:hover{
+    background-color: #42607c;
+    color: #fff;
+}
+
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #42607c;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    outline: none;
+    background-color: #42607c;
+    color: #fff;
+}
+
+/* Contacto */ 
+
+section.contact-me{
+    border-bottom: none;
+}
+
+#contact input{
+    background-color: rgba(10, 10, 10, 0.691);
+    border: 1px solid rgba(250, 250, 250, 1);
+    border-radius: 0px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    padding-left: 15px;
+}
+
+#contact input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+#contact textarea{
+    background-color: rgba(10, 10, 10, 0.691);
+    border: 1px solid rgba(250, 250, 250);
+    border-radius: 0px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 14px;
+    height: 100px;
+    max-height: 220px;
+    line-height: 40px;
+    width: 100%;
+    padding-left: 15px;
+}
+
+#contact textarea:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+#contact{
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .menu{
+        left: 0%;
+    }
+    .right-image-post h4, .left-image-post h4{
+        margin-top: 0px;
+    }
+    .right-image-post p, .left-image-post p{
+        margin-top: 15pxpx;
+    }
+    .right-image-post, .white-button, .left-image-post, .white-button{
+        margin-top: 25px;
+    }
+}
+
+.menu .container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media screen and (max-width: 1280px) and (min-width: 846px){
+    .menu{
+        width: 25%;
+    }
+}
+
+#menu-toggle, #menu-close{
+    display: none;
+}
+
+@media screen and (max-width: 845px) {
+
+    #menu-toggle,
+    #menu-close {
+        display: inline-block;
+    }
+
+    .menu {
+        width: 320px;
+        -webkit-transform: translateX(-100%) !important;
+        transform: translateX(-100%) !important;
+        transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
+        transition: transform 233ms cubic-bezier(0, 0, 0.21, 1);
+        transition: transform 233ms cubic-bezier(0, 0, 0.21, 1), -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
+    }
+
+    .menu .image {
+        margin-top: 40px;
+    }
+
+    .menu .image img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .menu .author-content {
+        margin: 20px 0px 40px 0px;
+    }
+
+    .menu .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .menu.open {
+        display: inline-block;
+        -webkit-transform: translateX(0) !important;
+        transform: translateX(0) !important;
+    }
+
+    .responsive-nav {
+        display: inline-block;
+    }
+
+    .section {
+        width: 94%;
+        right: 3%;
+        left: 3%;
+    }
+
+    .isotope-item {
+        width: 94%;
+        margin: 3%;
+    }
+
+    .left-image-post img {
+        margin-bottom: 30px;
+    }
+
+    .right-image-post img {
+        margin-top: 30px;
+    }
+
+    .isotope-item {
+        border-bottom: none;
+        text-align: center;
+    }
+
+    .isotope-toolbar {
+        margin-bottom: 20px;
+    }
+}

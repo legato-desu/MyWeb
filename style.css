@@ -2,9 +2,10 @@
 
 
 #page-wraper {
-    background: url(img/page-bg.jpg) no-repeat center center fixed;
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url(/img/page-bg.jpg) no-repeat center center fixed;
     background-size: cover;
-    width: 100%;
 }
 
 /* Basico */
@@ -42,6 +43,7 @@ ul li {
 }
 
 .main-nav li a{
+    text-decoration: none;
     height: 70px;
     line-height: 70px;
     display: inline-block;
@@ -213,7 +215,7 @@ section.contact-me{
 }
 
 #contact input{
-    background-color: rgba(10, 10, 10, 0.691);
+    background-color: rgba(23, 151, 194, 0.2);
     border: 1px solid rgba(250, 250, 250, 1);
     border-radius: 0px;
     margin-bottom: 30px;
@@ -231,7 +233,7 @@ section.contact-me{
 }
 
 #contact textarea{
-    background-color: rgba(10, 10, 10, 0.691);
+    background-color: rgba(23, 151, 194, 0.2);
     border: 1px solid rgba(250, 250, 250);
     border-radius: 0px;
     margin-bottom: 30px;
@@ -252,6 +254,7 @@ section.contact-me{
 #contact{
     text-align: center;
 }
+
 
 @media screen and (max-width: 1200px) {
     .menu{
